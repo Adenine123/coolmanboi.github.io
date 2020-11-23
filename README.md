@@ -1,1 +1,0 @@
-# coolmanboi.github.io
