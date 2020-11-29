@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="UTF 8">
+ <title> Comments by people </title>
+ </head>
+  <body>
+  <h1> Comments on this website </h1>
+  <script>
+  var queryString = decodeURIComponent(window.location.search); //parsing 
+queryString = queryString.substring(1); 
+var queries = queryString.split("&"); 
+for (var i = 0; i < queries.length; i++) 
+{ 
+  document.write(queries[i] + "<br>"); 
+} 
+  
+</script>
+  </body>
+</html>
